@@ -17,6 +17,9 @@ $textModified = str_replace($_GET["word"], '***', $text);
 
 #cambiamo una parola decisa dall'utente dall query String in 3 asterischi
 echo $textModified;
+
+echo '<br>';
+
 echo strlen($textModified);
 
 ?>
